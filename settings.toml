@@ -1,0 +1,14 @@
+[default]
+SQLALCHEMY_DATABASE_URI = "sqlite:///zapptz.db"
+SQLALCHEMY_TRACK_MODIFICATIONS = false
+JWT_SECRET_KEY = 'NaoRevelePraNinguem'
+EXTENSIONS= [
+    "carta.ext.command",
+    "carta.ext.database",
+    "carta.ext.jwt",
+
+    "carta.blueprints.api"
+]
+
+
+[production]
