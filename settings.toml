@@ -12,3 +12,5 @@ EXTENSIONS= [
 
 
 [production]
+DEBUG = false
+
