@@ -1,1 +1,1 @@
-web: gunicorn app:carta/app.py
+web: gunicorn carta:app.py
