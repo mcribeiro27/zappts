@@ -1,1 +1,1 @@
-echo "web: gunicorn carta/app:app" > Procfile
+web: python carta/app.py
