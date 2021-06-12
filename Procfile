@@ -1,1 +1,1 @@
-web: gunicorn --chdir zappts carta:app
+web: gunicorn --chdir carta app:app
