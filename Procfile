@@ -1,1 +1,1 @@
-web: gunicorn carta:app
+web: gunicorn carta/app:app
