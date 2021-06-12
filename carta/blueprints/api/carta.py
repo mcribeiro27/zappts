@@ -58,7 +58,7 @@ class CartasResource(Resource):
     def get(self):
         return {'cartas': [carta.json() for carta in Carta.query.all()]}
 
-    @jwt_required()
+    
     def post(self):
         dados = param.parse_args()
         carta = Carta(**dados)
