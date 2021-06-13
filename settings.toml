@@ -13,4 +13,5 @@ EXTENSIONS= [
 
 [production]
 DEBUG = false
-
+SQLALCHEMY_DATABASE_URI = "postgresql:///carta"
+SQLALCHEMY_TRACK_MODIFICATIONS = false
