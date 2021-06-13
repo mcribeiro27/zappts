@@ -1,1 +1,2 @@
-web: gunicorn  carta.app:app
+web: gunicorn app:app
+web: gunicorn run: app
