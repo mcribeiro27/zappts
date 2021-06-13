@@ -1,6 +1,9 @@
 [default]
-SQLALCHEMY_DATABASE_URI = "sqlite:///zapptz.db"
+SQLALCHEMY_DATABASE_URI = "postgres://bovnfskyfhkfon:6d0bbf2e036f85a4ce71f039793a1af365bec63398040170639ee3a489ec0e0d@ec2-35-169-188-58.compute-1.amazonaws.com:5432/dbctv99as6poqq"
 SQLALCHEMY_TRACK_MODIFICATIONS = false
+
+# SQLALCHEMY_DATABASE_URI = "sqlite:///zapptz.db"
+# SQLALCHEMY_TRACK_MODIFICATIONS = false
 JWT_SECRET_KEY = 'NaoRevelePraNinguem'
 EXTENSIONS= [
     "carta.ext.command",
