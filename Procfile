@@ -1,1 +1,1 @@
-web: gunicorn --chdir carta app:app
+web: gunicorn --chdir carta app:createapp
