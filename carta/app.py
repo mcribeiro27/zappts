@@ -10,7 +10,7 @@ def minimal_app():
     configuration.init_app(app)
     return app
 
-def create_app():
+def create_app(self):
     '''
     Para evitar o problema de circular import
     '''
